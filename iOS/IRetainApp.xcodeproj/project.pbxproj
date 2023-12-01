@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445D25CE2AF01D340047D892 /* QuestionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D25CD2AF01D340047D892 /* QuestionsListView.swift */; };
+		445D25D02AF02A9F0047D892 /* StudentQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445D25CF2AF02A9F0047D892 /* StudentQuestionView.swift */; };
+		44DEE6142AE96F6F001ED5CC /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DEE6132AE96F6F001ED5CC /* FeedBackView.swift */; };
+		44DEE6162AE97729001ED5CC /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DEE6152AE97729001ED5CC /* StatisticsView.swift */; };
+		44DEE6182AE980BE001ED5CC /* SuggestionBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DEE6172AE980BE001ED5CC /* SuggestionBoxView.swift */; };
+		44DEE63E2AEFCD5A001ED5CC /* EditQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DEE63D2AEFCD5A001ED5CC /* EditQuestionView.swift */; };
+		C1A9ACBD2AE8D0B500B2B98E /* IRetainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACBC2AE8D0B500B2B98E /* IRetainAppApp.swift */; };
+		C1A9ACBF2AE8D0B500B2B98E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACBE2AE8D0B500B2B98E /* ContentView.swift */; };
+		C1A9ACC12AE8D0B600B2B98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A9ACC02AE8D0B600B2B98E /* Assets.xcassets */; };
+		C1A9ACC42AE8D0B600B2B98E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A9ACC32AE8D0B600B2B98E /* Preview Assets.xcassets */; };
+		C1A9ACD02AE8EE6D00B2B98E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACCE2AE8EE6D00B2B98E /* LoginView.swift */; };
+		C1A9ACD12AE8EE6D00B2B98E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACCF2AE8EE6D00B2B98E /* MainView.swift */; };
+		C1A9ACD32AE8F5F600B2B98E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACD22AE8F5F600B2B98E /* HomeView.swift */; };
+		C1A9ACD52AE8FFDD00B2B98E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1A9ACD42AE8FFDD00B2B98E /* GoogleService-Info.plist */; };
+		C1A9ACD72AE906C800B2B98E /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACD62AE906C800B2B98E /* AddClassView.swift */; };
+		C1A9ACD92AE9177500B2B98E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9ACD82AE9177500B2B98E /* Model.swift */; };
+		D4D6A5001CF60E9F976D4FC6 /* Pods_IRetainApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9F1F7336673B1444DA6B0E /* Pods_IRetainApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9F1F7336673B1444DA6B0E /* Pods_IRetainApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IRetainApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136C2499F65EB5BC518B5558 /* Pods-IRetainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRetainApp.release.xcconfig"; path = "Target Support Files/Pods-IRetainApp/Pods-IRetainApp.release.xcconfig"; sourceTree = "<group>"; };
+		315B0AC829A4C760ACEE6535 /* Pods-IRetainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IRetainApp.debug.xcconfig"; path = "Target Support Files/Pods-IRetainApp/Pods-IRetainApp.debug.xcconfig"; sourceTree = "<group>"; };
+		445D25CD2AF01D340047D892 /* QuestionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsListView.swift; sourceTree = "<group>"; };
+		445D25CF2AF02A9F0047D892 /* StudentQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentQuestionView.swift; sourceTree = "<group>"; };
+		44DEE6132AE96F6F001ED5CC /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackView.swift; sourceTree = "<group>"; };
+		44DEE6152AE97729001ED5CC /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		44DEE6172AE980BE001ED5CC /* SuggestionBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionBoxView.swift; sourceTree = "<group>"; };
+		44DEE63D2AEFCD5A001ED5CC /* EditQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditQuestionView.swift; sourceTree = "<group>"; };
+		C1A9ACB92AE8D0B500B2B98E /* IRetainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRetainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A9ACBC2AE8D0B500B2B98E /* IRetainAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRetainAppApp.swift; sourceTree = "<group>"; };
+		C1A9ACBE2AE8D0B500B2B98E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1A9ACC02AE8D0B600B2B98E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A9ACC32AE8D0B600B2B98E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1A9ACCE2AE8EE6D00B2B98E /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C1A9ACCF2AE8EE6D00B2B98E /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C1A9ACD22AE8F5F600B2B98E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1A9ACD42AE8FFDD00B2B98E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1A9ACD62AE906C800B2B98E /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		C1A9ACD82AE9177500B2B98E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A9ACB62AE8D0B500B2B98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D6A5001CF60E9F976D4FC6 /* Pods_IRetainApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6C97677CCA16B1C8F8ADB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315B0AC829A4C760ACEE6535 /* Pods-IRetainApp.debug.xcconfig */,
+				136C2499F65EB5BC518B5558 /* Pods-IRetainApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B31EEAF98143339F15ED2A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9F1F7336673B1444DA6B0E /* Pods_IRetainApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A9ACB02AE8D0B500B2B98E = {
+			isa = PBXGroup;
+			children = (
+				C1A9ACBB2AE8D0B500B2B98E /* IRetainApp */,
+				C1A9ACBA2AE8D0B500B2B98E /* Products */,
+				0D6C97677CCA16B1C8F8ADB9 /* Pods */,
+				6B31EEAF98143339F15ED2A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A9ACBA2AE8D0B500B2B98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9ACB92AE8D0B500B2B98E /* IRetainApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A9ACBB2AE8D0B500B2B98E /* IRetainApp */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9ACD42AE8FFDD00B2B98E /* GoogleService-Info.plist */,
+				C1A9ACCE2AE8EE6D00B2B98E /* LoginView.swift */,
+				C1A9ACD22AE8F5F600B2B98E /* HomeView.swift */,
+				C1A9ACD62AE906C800B2B98E /* AddClassView.swift */,
+				C1A9ACCF2AE8EE6D00B2B98E /* MainView.swift */,
+				C1A9ACBC2AE8D0B500B2B98E /* IRetainAppApp.swift */,
+				C1A9ACBE2AE8D0B500B2B98E /* ContentView.swift */,
+				44DEE6132AE96F6F001ED5CC /* FeedBackView.swift */,
+				44DEE6152AE97729001ED5CC /* StatisticsView.swift */,
+				44DEE6172AE980BE001ED5CC /* SuggestionBoxView.swift */,
+				44DEE63D2AEFCD5A001ED5CC /* EditQuestionView.swift */,
+				445D25CD2AF01D340047D892 /* QuestionsListView.swift */,
+				445D25CF2AF02A9F0047D892 /* StudentQuestionView.swift */,
+				C1A9ACC02AE8D0B600B2B98E /* Assets.xcassets */,
+				C1A9ACC22AE8D0B600B2B98E /* Preview Content */,
+				C1A9ACD82AE9177500B2B98E /* Model.swift */,
+			);
+			path = IRetainApp;
+			sourceTree = "<group>";
+		};
+		C1A9ACC22AE8D0B600B2B98E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9ACC32AE8D0B600B2B98E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A9ACB82AE8D0B500B2B98E /* IRetainApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A9ACC72AE8D0B600B2B98E /* Build configuration list for PBXNativeTarget "IRetainApp" */;
+			buildPhases = (
+				0D90AB374314DA503798981E /* [CP] Check Pods Manifest.lock */,
+				C1A9ACB52AE8D0B500B2B98E /* Sources */,
+				C1A9ACB62AE8D0B500B2B98E /* Frameworks */,
+				C1A9ACB72AE8D0B500B2B98E /* Resources */,
+				49C2883E1A5F14B28EA2B5CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRetainApp;
+			productName = IRetainApp;
+			productReference = C1A9ACB92AE8D0B500B2B98E /* IRetainApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A9ACB12AE8D0B500B2B98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C1A9ACB82AE8D0B500B2B98E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C1A9ACB42AE8D0B500B2B98E /* Build configuration list for PBXProject "IRetainApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A9ACB02AE8D0B500B2B98E;
+			productRefGroup = C1A9ACBA2AE8D0B500B2B98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A9ACB82AE8D0B500B2B98E /* IRetainApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A9ACB72AE8D0B500B2B98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A9ACC42AE8D0B600B2B98E /* Preview Assets.xcassets in Resources */,
+				C1A9ACC12AE8D0B600B2B98E /* Assets.xcassets in Resources */,
+				C1A9ACD52AE8FFDD00B2B98E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D90AB374314DA503798981E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IRetainApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C2883E1A5F14B28EA2B5CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRetainApp/Pods-IRetainApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IRetainApp/Pods-IRetainApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IRetainApp/Pods-IRetainApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A9ACB52AE8D0B500B2B98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A9ACD92AE9177500B2B98E /* Model.swift in Sources */,
+				C1A9ACD02AE8EE6D00B2B98E /* LoginView.swift in Sources */,
+				44DEE63E2AEFCD5A001ED5CC /* EditQuestionView.swift in Sources */,
+				C1A9ACD72AE906C800B2B98E /* AddClassView.swift in Sources */,
+				445D25CE2AF01D340047D892 /* QuestionsListView.swift in Sources */,
+				C1A9ACD12AE8EE6D00B2B98E /* MainView.swift in Sources */,
+				44DEE6162AE97729001ED5CC /* StatisticsView.swift in Sources */,
+				C1A9ACBF2AE8D0B500B2B98E /* ContentView.swift in Sources */,
+				44DEE6142AE96F6F001ED5CC /* FeedBackView.swift in Sources */,
+				445D25D02AF02A9F0047D892 /* StudentQuestionView.swift in Sources */,
+				C1A9ACD32AE8F5F600B2B98E /* HomeView.swift in Sources */,
+				44DEE6182AE980BE001ED5CC /* SuggestionBoxView.swift in Sources */,
+				C1A9ACBD2AE8D0B500B2B98E /* IRetainAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1A9ACC52AE8D0B600B2B98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1A9ACC62AE8D0B600B2B98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A9ACC82AE8D0B600B2B98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315B0AC829A4C760ACEE6535 /* Pods-IRetainApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IRetainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CSUYMRA3X3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRetain1.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1A9ACC92AE8D0B600B2B98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136C2499F65EB5BC518B5558 /* Pods-IRetainApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IRetainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = CSUYMRA3X3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iRetain1.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A9ACB42AE8D0B500B2B98E /* Build configuration list for PBXProject "IRetainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A9ACC52AE8D0B600B2B98E /* Debug */,
+				C1A9ACC62AE8D0B600B2B98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A9ACC72AE8D0B600B2B98E /* Build configuration list for PBXNativeTarget "IRetainApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A9ACC82AE8D0B600B2B98E /* Debug */,
+				C1A9ACC92AE8D0B600B2B98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A9ACB12AE8D0B500B2B98E /* Project object */;
+}
