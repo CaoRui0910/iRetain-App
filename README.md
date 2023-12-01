@@ -55,8 +55,8 @@ Will be updated in the future...
 We built the prototype via Figma.
 - iOS:
   - Video Demo: 
-  - [Student side](https://www.figma.com/file/pKnh4sojIYBgg5ieAkLPhC/iRetain-App-0?type=design&node-id=0%3A1&mode=design&t=Pv6U3MUn34HR94jG-1)
-  - [Teacher side](https://www.figma.com/file/qCpTMNDFPCnBDE2SyO13sn/iRetain-App-1?type=design&node-id=0%3A1&mode=design&t=3WqsBbikyEgFKmmg-1)
+  - Figma prototype for [Student side](https://www.figma.com/file/pKnh4sojIYBgg5ieAkLPhC/iRetain-App-0?type=design&node-id=0%3A1&mode=design&t=Pv6U3MUn34HR94jG-1)
+  - Figma prototype for [Teacher side](https://www.figma.com/file/qCpTMNDFPCnBDE2SyO13sn/iRetain-App-1?type=design&node-id=0%3A1&mode=design&t=3WqsBbikyEgFKmmg-1)
 
 
 ## Installation
