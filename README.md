@@ -60,7 +60,7 @@ We built the prototype via Figma.
 
 
 ## Installation
-We plan to release it in the app store during the Spring semester of 2024. Therefore, this section is to be updated.
+We plan to release it in the app store during the Spring semester of 2024. Therefore, this section is to be updated...
 
 ### iOS
 - Download the app from the Apple App Store.
