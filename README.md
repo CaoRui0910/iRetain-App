@@ -77,7 +77,7 @@ We plan to release it in the app store during the Spring semester of 2024. There
 
 ## Build & Development
 - iOS:
-  - download Xcode app in mac App Store
+  - download [Xcode app](https://apps.apple.com/us/app/xcode/id497799835?mt=12) in mac App Store
   - download [iOS code](https://github.com/CaoRui0910/iRetain-App/tree/main/iOS)
   - run with `pod install` to install the pods. You can also install the Firebase, SideMenu, DropDown dependencies via swift package manager. For the installation of Firebase by swift package manager, please check [Add Firebase to your Apple project](https://firebase.google.com/docs/ios/setup#add-sdks)
   - open your .xcworkspace file to see the project in Xcode.
