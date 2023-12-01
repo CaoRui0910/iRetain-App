@@ -40,6 +40,7 @@ Will be updated in the future...
   - Enroll in new class with permission number.
   - Answer released questions for classes they enrolled this year.
   - Submit feedback for enrolled classes.
+  - Students can receive notifications when new question is posted by the instructor for the courses they are enrolled in.
 - Teacher side:
   - Log in with duke netid:
   - Log out:
