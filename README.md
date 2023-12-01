@@ -4,6 +4,8 @@ A cross-platform mobile app “iRetain” that allowed professors to post quizze
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features & Demo](#features--demo)
+   - [Video Demo](#video-demo)
+   - [Features](#features)
 3. [Installation](#installation)
    - [iOS](#ios)
    - [Android](#android)
@@ -16,7 +18,9 @@ A cross-platform mobile app “iRetain” that allowed professors to post quizze
 
 
 ## Features & Demo
-- 
+### Video Demo
+
+### Features
 
 ## Installation
 
